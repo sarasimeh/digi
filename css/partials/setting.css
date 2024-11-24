@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: IRANYEKANBOLD;
+  src: url(../../fonts/fa/IRANYekanWeb-Bold.eot);
+  src: url(../../fonts/fa/IRANYekanWeb-Bold.ttf);
+  src: url(../../fonts/fa/IRANYekanWeb-Bold.woff);
+  src: url(../../fonts/fa/IRANYekanWeb-Bold.woff2);
+}
+
+@font-face {
+  font-family: cube;
+  src: url(../../fonts/fa/cube.eot);
+  src: url(../../fonts/fa/cube.ttf);
+  src: url(../../fonts/fa/cube.woff);
+  src: url(../../fonts/fa/cube.woff2);
+}
+@font-face {
+  font-family: IRANYEKAN;
+  src: url(../../fonts/fa/iranyekan/IRANYekanWeb.eot);
+  src: url(../../fonts/fa/iranyekan/IRANYekanWeb.ttf);
+  src: url(../../fonts/fa/iranyekan/IRANYekanWeb.woff);
+  src: url(../../fonts/fa/iranyekan/IRANYekanWeb.woff2);
+}
+@font-face {
+  font-family: IRANYEKANMEDIUM;
+  src: url(../../fonts/fa/iranyekanmedium/IRANYekanWeb-Medium.eot);
+  src: url(../../fonts/fa/iranyekanmedium/IRANYekanWeb-Medium.TTF);
+  src: url(../../fonts/fa/iranyekanmedium/IRANYekanWeb-Medium.woff);
+  src: url(../../fonts/fa/iranyekanmedium/IRANYekanWeb-Medium.woff2);
+}
+@font-face {
+  font-family: IRANYEKANEXTRABOLD;
+  src: url(../../fonts/fa/iranyekanextra/IRANYekanWeb-ExtraBold.eot);
+  src: url(../../fonts/fa/iranyekanextra/IRANYekanWeb-ExtraBold.ttf);
+  src: url(../../fonts/fa/iranyekanextra/IRANYekanWeb-ExtraBold.woff);
+  src: url(../../fonts/fa/iranyekanextra/IRANYekanWeb-ExtraBold.woff2);
+}
+@font-face {
+  font-family: bNazanin;
+  src: url(../../fonts/fa/bNazanin/B_NAZANIN/BNazanin.eot);
+  src: url(../../fonts/fa/bNazanin/B_NAZANIN/BNazanin.ttf);
+  src: url(../../fonts/fa/bNazanin/B_NAZANIN/BNazanin.woff);
+  src: url(../../fonts/fa/bNazanin/B_NAZANIN/BNazanin.woff2);
+}
+:root {
+  --fontFamily: IRANYEKAN;
+  --fontFamily2: cube;
+  --fontFamily3: IRANYEKANBOLD;
+  --fontFamily4: IRANYEKANMEDIUM;
+  --fontFamilyB: IRANYEKANEXTRABOLD;
+  --fontNumber:bNazanin
+}
+.wrapper {
+  width: 100%;
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  border: 1px solid lightgray;
+}
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  font-size: 12px;
+  color: #2b2b2b;
+  font-weight: bold !important;
+}
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0;
+}
+.swiper-horizontal> .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  width: 5px;
+  height: 5px;
+  background-color: #ffffff;
+  transition: 300ms;
+}
+.swiper-pagination-bullet-active {
+  width: 20px !important;
+  height: 5px;
+  border-radius: 3px;
+  background-color: #ffffff !important;
+}
+
+html::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+  background: #f6f6f6;
+}
+::-webkit-scrollbar-thumb {
+  background: #c0c2c5;
+}
