@@ -1,0 +1,254 @@
+.amazing-showcase {
+  width: 100%;
+  height: 335px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  .amazing-showcase-center {
+    width: 98%;
+    height: inherit;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    background-image: url(/image/svg/amazing-showcase-linegradiant.svg),
+      linear-gradient(180deg, #e6123d, #c60c31);
+    .amazing-showcase-center-top {
+      width: 100%;
+      height: 65px;
+      display: flex;
+      align-items: center;
+      column-gap: 8px;
+      .amazing-showcase-center-top-svg {
+        width: 24px;
+        height: 24px;
+        margin-right: 20px;
+      }
+      .amazing-showcase-center-top-text {
+        font-family: var(--fontFamily);
+        font-size: 16px;
+        color: #fff;
+      }
+    }
+    .amazing-showcase-center-bottom {
+      width: 100%;
+      height: 260px;
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 10px;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .amazing-showcase-center-bottom-1 {
+        width: 700px;
+        height: 248px;
+        background: #fff;
+        border-radius: 10px;
+        text-decoration: none;
+        .amazing-showcase-center-bottom-1-top{
+            width: 100%;
+            height: 26px;
+            display: flex;
+            align-items: center;
+            margin: 8px 18px 0 0;
+            .amazing-showcase-center-bottom-1-top-svg{
+                width: 116px;
+                height: 14px;
+            }
+        }
+        .amazing-showcase-center-bottom-1-bottom{
+            width: 100%;
+            height: 205px;
+            display: flex;
+            .amazing-showcase-center-bottom-1-bottom-right{
+                width: 29%;
+                height: inherit;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .amazing-showcase-center-bottom-1-bottom-right-img{
+                    width: 170px;
+                    height: 200px;
+                }
+            }
+            .amazing-showcase-center-bottom-1-bottom-left{
+                width: 71%;
+                height: inherit;
+                padding-left: 20px;
+                .amazing-showcase-center-bottom-1-bottom-left-1{
+                    width: 100%;
+                    height: 88px;
+                    color: black;
+                    font-family: var(--fontFamily);
+                    font-size: 12px;
+                    display: flex;
+                    align-items: center;
+                    padding-top: 10px;
+                }
+                .amazing-showcase-center-bottom-1-bottom-left-2{
+                    width: 100%;
+                    height: 15px;
+                    display: flex;
+                    column-gap: 8px;
+                    .amazing-showcase-center-bottom-1-bottom-left-2-circle{
+                        width: 14px;
+                        height: 14px;
+                        background-color: red;
+                        border-radius: 50%;
+                    }
+                    .amazing-showcase-center-bottom-1-bottom-left-2-text{
+                        font-family: var(--fontFamily);
+                        font-size: 10px;
+                    }
+                }
+                .amazing-showcase-center-bottom-1-bottom-left-3{
+                  width: 100%;
+                  height: 33px;
+                  display: flex;
+                  .amazing-showcase-center-bottom-1-bottom-left-3-right{
+                    width: 10%;
+                    height: inherit;
+                    display: flex;
+                    align-items: center;
+                    .amazing-showcase-center-bottom-1-bottom-left-3-right-discount{
+                      width: 34px;
+                      height: 20px;
+                      background-color: #d32f2f;
+                      border-radius: 50px;
+                      font-family: var(--fontNumber);
+                      font-size: 12px;
+                      color: #fff;
+                      display: flex;
+                      justify-content: center;
+                      padding-left: 2px;
+                    }
+                  }
+                  .amazing-showcase-center-bottom-1-bottom-left-3-left{
+                    width: 90%;
+                    height: inherit;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    column-gap: 2px;
+                    .amazing-showcase-center-bottom-1-bottom-left-3-left-svg{
+                      width: 16px;
+                      height: 16px;
+                    }
+                    .amazing-showcase-center-bottom-1-bottom-left-3-left-number{
+                      font-family: var(--fontNumber);
+                      font-size: 20px;
+                      color: black;
+                      margin-bottom: 5px;
+                    }
+                  }
+                }
+                .amazing-showcase-center-bottom-1-bottom-left-4{
+                  width: 100%;
+                  height: 26px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: flex-end;
+                  padding-left: 20px;
+                  .amazing-showcase-center-bottom-1-bottom-left-4-left-number{
+                    font-family: var(--fontNumber);
+                    font-size: 15px;
+                    color: #c0c2c5;
+                    text-decoration: line-through;
+                  }
+                }
+                .amazing-showcase-center-bottom-1-bottom-left-5{
+                  width: 100%;
+                  height: 30px;
+                  display: flex;
+                  align-items: flex-end;
+                  justify-content: flex-end;
+                  padding-left: 1px;
+                  .amazing-showcase-center-bottom-1-bottom-left-5-left-time{
+                    font-family: var(--fontNumber);
+                    font-size: 15px;
+                    color: #ef394e;
+                  }
+                }
+            }
+        }
+      }
+      .amazing-showcase-center-bottom-2{
+        width: 768px;
+        height: 248px;
+        background-color: #f5f5f5;
+        border-radius: 10px;
+        position: relative;
+        .amazing-showcase-center-bottom-2-background{
+          width: 30%;
+          height: inherit;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .amazing-showcase-center-bottom-2-background-img{
+            width: 150px;
+            height: 200px;
+           margin-top: 13px;
+          }
+        }
+        .amazing-showcase-center-bottom-2-lock{
+          width: 100%;
+          height: 100%;
+          background-color: rgba(0, 0, 0, .7);
+          position: absolute;
+          top: 0;
+          right: 0;
+          left: 0;
+          z-index: 999;
+          border-radius: 10px;
+          .amazing-showcase-center-bottom-2-lock-top{
+            width: 100%;
+            height: 55%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            .amazing-showcase-center-bottom-2-lock-top-background{
+              width: 80px;
+              height: 80px;
+              background-color: #ef394e;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              border-radius: 50px;
+              .amazing-showcase-center-bottom-2-lock-top-img{
+                width: 48px;
+                height: 48px;
+                margin-left: 3px;
+                margin-top: 5px;
+              }
+            }
+          }
+          .amazing-showcase-center-bottom-2-lock-bottom{
+            width: 100%;
+            height: 50%;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            .amazing-showcase-center-bottom-2-lock-bottom-text{
+              font-family: var(--fontFamily);
+              font-size: 15px;
+              color: #ffffff;
+              margin-top: 25px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

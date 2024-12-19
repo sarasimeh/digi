@@ -1,11 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>فروشگاه اینترنتی دیجی کالا</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./index.html" />
 </head>
 <body>
-    
+    <form action="#" method="post" enctype="multipart/form-data" class="form">
+      <div class="form-header">
+        <a href="./index.html">
+          <img src="./images/svg/formheader.svg" alt="" />
+        </a>
+      </div>
+      <div class="form-bottom">
+        <div class="form-bottom-title"><h1>ورود | ثبت‌نام</h1></div>
+        <div class="form-bottom-content">
+          <p>سلام!</p>
+          <p>لطفا شماره موبایل یا ایمیل خود را وارد کنید</p>
+        </div>
+        <form class="form-bottom-input">
+          <div class="form-bottom-input-container">
+            <label for="content"></label>
+            <input
+              type="text"
+              name="contact"
+              id="contact"
+              required
+              class="form-bottom-input-container-input"
+            />
+            <span class="error-massage">لطفا این قسمت را خالی نگذارید</span>
+          </div>
+          <button class="form-bottom-button" type="submit">
+            <p>ورود</p>
+          </button>
+        </form>
+        <p class="form-rules">
+          ورود شما به معنای پذیرش
+          <a href="#"> شرایط دیجی‌کالا </a>
+          و
+          <a href="#"> قوانین حریم‌خصوصی </a>
+          است
+        </p>
+      </div>
+    </form>
 </body>
 </html>

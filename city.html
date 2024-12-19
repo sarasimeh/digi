@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="shortcut icon"
+      href="./images/favicon/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./index.html" />
+  </head>
+  <body>
+   <div class="header-bottom">
+          <div class="header-bottom-right">
+            <nav>
+              <div>
+                <a href="#" class="activeMenu">
+                  <img src="./images/svg/bars.svg" alt="bars-icon" />
+                  دسته&zwnj;بندی کالاها</a
+                >
+              </div>
+              <div class="span-1"><span></span></div>
+              <div>
+                <a href="./amazing.html" class="right-amazing">
+                  <img src="./images/svg/amazing.svg" alt="amazing-icon" />
+                  شگفت&zwnj;انگیزها</a
+                >
+              </div>
+              <div>
+                <a href="#" class="right-supermarket">
+                  <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+
+                  سوپرمارکت</a
+                >
+              </div>
+              <div>
+                <a href="#" class="right-giftcard">
+                  <img src="./images/svg/giftcard.svg" alt="gift-card" />
+                  کارت هدیه</a
+                >
+              </div>
+              <div>
+                <a href="#" class="right-searchtrend">
+                  <img src="./images/svg/searchTrend.svg" alt="search-trend" />
+                  پرفروش&zwnj;ترین&zwnj;ها</a
+                >
+              </div>
+              <div>
+                <a href="#" class="right-discount">
+                  <img src="./images/svg/discount.svg" alt="discount" />
+                  تخفیف&zwnj;ها و پیشنهادها</a
+                >
+              </div>
+              <div class="span"><span></span></div>
+              <div><a href="#" class="right-question">سوالی دارید؟</a></div>
+              <div>
+                <a href="#" class="right-selling">در دیجی&zwnj;کالا بفروشید!</a>
+              </div>
+            </nav>
+          </div>
+          <div class="header-bottom-left">
+            <a href="#" class="left-map-icon">
+              <img src="./images/svg/map-marker.svg" alt="mapMarker" />
+              شهر خود را انتخاب کنید
+            </a>
+          </div>
+        </div>
+
+        <!-- #region 
+         .header-bottom {
+    width: 100%;
+    height: calc(170px - 60px - 60px);
+    display: flex;
+    flex-flow: row nowrap;
+    .header-bottom-right {
+      width: 70%;
+      height: inherit;
+      display: flex;
+      padding-right: 80px;
+      margin-top: 5px;
+      margin-left: 10px;
+      nav {
+        width: 100%;
+        height: inherit;
+        display: flex;
+        flex-flow: row wrap;
+        margin-right: -90px;
+        position: relative;
+        div {
+          width: fit-content;
+          height: inherit;
+          display: flex;
+          align-items: center;
+          .span {
+            display: inline-block;
+            width: 1px;
+            height: 16px;
+            background-color: #e0e2e1;
+            margin-top: 18px;
+          }
+          .span-1 {
+            display: inline-block;
+            width: 1px;
+            height: 16px;
+            background-color: #e0e0e2;
+            margin-top: 18px;
+            margin-right: 12px;
+          }
+          a {
+            width: inherit;
+            height: inherit;
+            padding: 0px 10px;
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            font-family: var(--fontFamily);
+            font-size: 12px;
+            color: rgb(82, 81, 81);
+          }
+          .right-amazing {
+            margin: 0 2px;
+
+            position: relative;
+            img {
+              width: 18px;
+              height: 18px;
+              margin-left: 3px;
+            }
+            &::before {
+              content: "";
+              position: absolute;
+              top: 45px;
+              left: 0;
+              width: 0%;
+              height: 2px;
+              background: #efe9e9;
+              transition: 300ms;
+            }
+            &:hover::before {
+              width: 100%;
+              background: red;
+            }
+          }
+          .right-supermarket {
+            margin: 0 2px;
+
+            position: relative;
+            i {
+              font-size: 14px;
+              color: #a1a3a8;
+              margin-left: 3px;
+            }
+            &::before {
+              content: "";
+              position: absolute;
+              top: 45px;
+              left: 0;
+              width: 0%;
+              height: 2px;
+              background: #efe9e9;
+              transition: 300ms;
+            }
+            &:hover::before {
+              width: 100%;
+              background: red;
+            }
+          }
+
+          .right-giftcard {
+            margin: 0 2px;
+
+            position: relative;
+            img {
+              width: 18px;
+              height: 18px;
+              margin-left: 4px;
+            }
+            &::before {
+              content: "";
+              position: absolute;
+              top: 45px;
+              left: 0;
+              width: 0%;
+              height: 2px;
+              background: #efe9e9;
+              transition: 300ms;
+            }
+            &:hover::before {
+              width: 100%;
+              background: red;
+            }
+          }
+          .right-searchtrend {
+            margin: 0 2px;
+
+            position: relative;
+            img {
+              width: 18px;
+              height: 18px;
+              margin-left: 3px;
+            }
+            &::before {
+              content: "";
+              position: absolute;
+              top: 45px;
+              left: 0;
+              width: 0%;
+              height: 2px;
+              background: #efe9e9;
+              transition: 300ms;
+            }
+            &:hover::before {
+              width: 100%;
+              background: red;
+            }
+          }
+          .right-discount {
+            margin: 0 2px;
+
+            position: relative;
+            img {
+              width: 18px;
+              height: 18px;
+              margin-left: 3px;
+            }
+            &::before {
+              content: "";
+              position: absolute;
+              top: 45px;
+              left: 0;
+              width: 0%;
+              height: 2px;
+              background: #efe9e9;
+              transition: 300ms;
+            }
+            &:hover::before {
+              width: 100%;
+              background: red;
+            }
+          }
+          .right-question {
+            margin: 0 2px;
+
+            position: relative;
+            &::before {
+              content: "";
+              position: absolute;
+              top: 45px;
+              left: 0;
+              width: 0%;
+              height: 2px;
+              background: #efe9e9;
+              transition: 300ms;
+            }
+            &:hover::before {
+              width: 100%;
+              background: red;
+            }
+          }
+          .right-selling {
+            margin: 0 2px;
+
+            position: relative;
+            &::before {
+              content: "";
+              position: absolute;
+              top: 45px;
+              left: 0;
+              width: 0%;
+              height: 2px;
+              background: #efe9e9;
+              transition: 300ms;
+            }
+            &:hover::before {
+              width: 100%;
+              background: red;
+            }
+          }
+        }
+      }
+    }
+    .header-bottom-left {
+      flex: 0 0 30%;
+      height: inherit;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: flex-end;
+      justify-content: flex-end;
+      .left-map-icon {
+        display: flex;
+        text-decoration: none;
+        font-family: var(--fontFamily);
+        font-size: 12px;
+        color: #f67f17 !important;
+        column-gap: 7px;
+        margin: 0 0 10px 20px;
+        outline: aquamarine;
+        border: aquamarine;
+        border-radius: 7px;
+        background-color: #fef6ef;
+
+        img {
+          width: 20px;
+          height: 20px;
+          margin-top: -1px;
+          fill: #f67f17;
+        }
+      }
+    }
+  }
+        -->
+  </body>
+</html>

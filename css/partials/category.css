@@ -17,7 +17,7 @@
       height: inherit;
       padding-top: 20px;
       text-align: center;
-    cursor: pointer;
+      cursor: pointer;
 
       img {
         width: 52px;
@@ -33,8 +33,7 @@
         font-size: 11px;
         color: #3f4064;
       }
-      .category-center-item-more{
-        
+      .category-center-item-more {
         font-family: var(--fontFamily);
         font-weight: normal;
         width: 70%;

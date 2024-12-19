@@ -1,0 +1,112 @@
+.content-container {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #dadadd;
+  .content-container-center {
+    width: 85%;
+    height: 309px;
+    display: flex;
+    flex-flow: row wrap;
+    .content-container-center-top {
+      width: 100%;
+      height: 68px;
+      display: flex;
+      align-items: center;
+      .content-container-center-top-right {
+        width: 80%;
+        height: inherit;
+        display: flex;
+        align-items: center;
+        padding-right: 20px;
+        h1 {
+          font-family: var(--fontFamily);
+          font-size: 16px;
+        }
+      }
+      .content-container-center-top-left {
+        width: 20%;
+        height: inherit;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: flex-end;
+        .content-container-center-svg {
+          font-size: 12px;
+          font-family: var(--fontFamily);
+          color: #19bfd3;
+          text-decoration: none;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-left: 25px;
+          img {
+            width: 18px;
+            height: 18px;
+          }
+        }
+      }
+    }
+    .content-container-center-bottom {
+      width: 100%;
+      height: 230px;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      column-gap: 8px;
+      .content-container-center-bottom-product {
+        width: 24.5%;
+        height: inherit;
+        perspective: 800px;
+        padding-right: 3px;
+        .content-container-center-bottom-product-img {
+          width: 100%;
+          height: inherit;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid  #cacacc;
+          border-radius: 20px;
+       
+          background-color: #FFFFFF;
+          transition: 1s;
+          backface-visibility: hidden;
+          img {
+            width: 323px;
+            height: 201px;
+            object-fit: cover;
+            border-radius: 3px;
+          }
+        }
+       
+        .content-container-center-bottom-product-cover{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            background-color: #FFFFFF;
+            padding: 10px; box-sizing: border-box;
+            border: 1px solid #cacacc;
+            border-radius: 20px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform: rotateY(-180deg);
+            backface-visibility: hidden;
+            transition: 1s;
+            h1{
+                font-family: var(--fontFamily);
+                font-size: 15px;
+                opacity: 0.8;
+                margin-bottom: 20px;
+                line-height: 30px;
+                color: black;
+            }
+        }
+        
+      }
+    }
+  }
+}
+

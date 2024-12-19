@@ -1,0 +1,401 @@
+.amazing-running-out {
+  width: 100%;
+  height: 466px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  .amazing-running-out-center {
+    width: 98%;
+    height: inherit;
+    border-radius: 10px;
+    border: 1px solid #e0e0e2;
+    .amazing-running-out-center-top {
+      width: 100%;
+      height: 68px;
+      padding: 12px 20px;
+      .amazing-running-out-center-top-title {
+        width: 100%;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        column-gap: 10px;
+        .amazing-running-out-center-top-svg {
+          width: 24px;
+          height: 24px;
+        }
+        .amazing-running-out-center-top-text {
+          font-family: var(--fontFamily);
+          font-size: 16px;
+          color: #0c0c0c;
+        }
+      }
+      .amazing-running-out-center-top-span {
+        width: 70px;
+        height: 2px;
+        background-color: #ef394e;
+        margin-top: 5px;
+      }
+    }
+    .amazing-running-out-center-bottom {
+      width: 100%;
+      height: 390px;
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      .swiper-slide-amazing-running-out {
+        width: 100%;
+        height: inherit;
+        padding: 12px 8px;
+        text-decoration: none;
+        border-left: 1px solid #f0f0f1;
+        .swiper-slide-amazing-running-out-1 {
+          width: 100%;
+          height: 20px;
+          display: flex;
+          align-items: center;
+          .swiper-slide-amazing-running-out-1-svg {
+            width: 116px;
+            height: 14px;
+          }
+        }
+        .swiper-slide-amazing-running-out-2 {
+          width: 100%;
+          height: 163px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .swiper-slide-amazing-running-out-2-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+          }
+        }
+        .swiper-slide-amazing-running-out-3 {
+          width: 100%;
+          height: 52px;
+          display: flex;
+          align-items: center;
+          line-height: 25px;
+          .swiper-slide-amazing-running-out-3-text {
+            font-family: var(--fontFamily);
+            font-size: 12px;
+            color: #3f4064;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-align: right;
+          }
+        }
+        .swiper-slide-amazing-running-out-4 {
+          width: 100%;
+          height: 24px;
+          display: flex;
+          align-items: center;
+          column-gap: 5px;
+          
+          .swiper-slide-amazing-running-out-4-today-text-red {
+            font-family: var(--fontFamily);
+            font-size: 11px;
+            color: #ef394e;
+            text-align: right;
+          }
+          .swiper-slide-amazing-running-out-4-today-svg{
+            width: 18px;
+            height: 18px;
+          }
+          .swiper-slide-amazing-running-out-4-today-text{
+            font-family: var(--fontFamily);
+            font-size: 11px;
+            color: #62666d;
+          }
+        }
+        .swiper-slide-amazing-running-out-5 {
+          width: 100%;
+          height: 34px;
+          display: flex;
+          .swiper-slide-amazing-running-out-5-right {
+            width: 25%;
+            height: inherit;
+            display: flex;
+            align-items: center;
+            .swiper-slide-amazing-running-out-5-right-discount {
+              width: 34px;
+              height: 20px;
+              background-color: #d32f2f;
+              border-radius: 50px;
+              font-family: var(--fontNumber);
+              font-size: 13px;
+              color: #fff;
+              display: flex;
+              justify-content: center;
+              padding-left: 2px;
+            }
+          }
+          .swiper-slide-amazing-running-out-5-left {
+            width: 75%;
+            height: inherit;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            column-gap: 2px;
+            .swiper-slide-amazing-running-out-5-left-number {
+              font-family: var(--fontNumber);
+              font-size: 20px;
+              color: black;
+              margin-bottom: 10px;
+            }
+            .swiper-slide-amazing-running-out-5-left-svg {
+              width: 18px;
+              height: 18px;
+            }
+          }
+        }
+        .swiper-slide-amazing-running-out-6 {
+          width: 100%;
+          height: 26px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+          padding-left: 20px;
+          .swiper-slide-amazing-running-out-6-number {
+            font-family: var(--fontNumber);
+            font-size: 15px;
+            color: #c0c2c5;
+            text-decoration: line-through;
+          }
+        }
+        .swiper-slide-amazing-running-out-1-span{
+            width: 100%;
+            height: 4px;
+            background-color: #f0f0f1;
+            direction: ltr;
+            border-radius: 50px;
+            .swiper-slide-amazing-running-out-1-span-background{
+                width: 46%;
+                height: inherit;
+                background-color: #ef394e;
+                border-radius: 50px;
+            }
+        }
+        .swiper-slide-amazing-running-out-2-span{
+            width: 100%;
+            height: 4px;
+            background-color: #f0f0f1;
+            direction: ltr;
+            border-radius: 50px;
+            .swiper-slide-amazing-running-out-2-span-background{
+                width: 47%;
+                height: inherit;
+                background-color: #ef394e;
+                border-radius: 50px;
+            }
+        }
+        .swiper-slide-amazing-running-out-3-span{
+            width: 100%;
+            height: 4px;
+            background-color: #f0f0f1;
+            direction: ltr;
+            border-radius: 50px;
+            .swiper-slide-amazing-running-out-3-span-background{
+                width: 50%;
+                height: inherit;
+                background-color: #ef394e;
+                border-radius: 50px;
+            }
+        }
+        .swiper-slide-amazing-running-out-4-span{
+            width: 100%;
+            height: 4px;
+            background-color: #f0f0f1;
+            direction: ltr;
+            border-radius: 50px;
+            .swiper-slide-amazing-running-out-4-span-background{
+                width: 50%;
+                height: inherit;
+                background-color: #ef394e;
+                border-radius: 50px;
+            }
+        }
+        .swiper-slide-amazing-running-out-5-span{
+            width: 100%;
+            height: 4px;
+            background-color: #f0f0f1;
+            direction: ltr;
+            border-radius: 50px;
+            .swiper-slide-amazing-running-out-5-span-background{
+                width: 52%;
+                height: inherit;
+                background-color: #ef394e;
+                border-radius: 50px;
+            }
+        }
+        .swiper-slide-amazing-running-out-6-span{
+            width: 100%;
+            height: 4px;
+            background-color: #f0f0f1;
+            direction: ltr;
+            border-radius: 50px;
+            .swiper-slide-amazing-running-out-6-span-background{
+                width: 54%;
+                height: inherit;
+                background-color: #ef394e;
+                border-radius: 50px;
+            }
+        }
+        .swiper-slide-amazing-running-out-7-span{
+            width: 100%;
+            height: 4px;
+            background-color: #f0f0f1;
+            direction: ltr;
+            border-radius: 50px;
+            .swiper-slide-amazing-running-out-7-span-background{
+                width: 64%;
+                height: inherit;
+                background-color: #ef394e;
+                border-radius: 50px;
+            }
+        }
+        .swiper-slide-amazing-running-out-8-span{
+            width: 100%;
+            height: 4px;
+            background-color: #f0f0f1;
+            direction: ltr;
+            border-radius: 50px;
+            .swiper-slide-amazing-running-out-8-span-background{
+                width: 51%;
+                height: inherit;
+                background-color: #ef394e;
+                border-radius: 50px;
+            }
+        }
+        .swiper-slide-amazing-running-out-10-span{
+            width: 100%;
+            height: 4px;
+            background-color: #f0f0f1;
+            direction: ltr;
+            border-radius: 50px;
+            .swiper-slide-amazing-running-out-10-span-background{
+                width: 70%;
+                height: inherit;
+                background-color: #ef394e;
+                border-radius: 50px;
+            }
+             .swiper-slide-amazing-running-out-11-span-background{
+               width: 79%;
+                height: inherit;
+                background-color: #ef394e;
+                border-radius: 50px;
+             }
+        }
+        .swiper-slide-amazing-running-out-12-span{
+            width: 100%;
+            height: 4px;
+            background-color: #f0f0f1;
+            direction: ltr;
+            border-radius: 50px;
+            .swiper-slide-amazing-running-out-12-span-background{
+                width: 90%;
+                height: inherit;
+                background-color: #ef394e;
+                border-radius: 50px;
+            }
+        }
+        .swiper-slide-amazing-running-out-14-span{
+            width: 100%;
+            height: 4px;
+            background-color: #f0f0f1;
+            direction: ltr;
+            border-radius: 50px;
+            .swiper-slide-amazing-running-out-14-span-background{
+                width: 48%;
+                height: inherit;
+                background-color: #ef394e;
+                border-radius: 50px;
+            }
+        }
+        .swiper-slide-amazing-running-out-15-span{
+            width: 100%;
+            height: 4px;
+            background-color: #f0f0f1;
+            direction: ltr;
+            border-radius: 50px;
+            .swiper-slide-amazing-running-out-15-span-background{
+                width: 50%;
+                height: inherit;
+                background-color: #ef394e;
+                border-radius: 50px;
+            }
+        }
+        .swiper-slide-amazing-running-out-16-span{
+            width: 100%;
+            height: 4px;
+            background-color: #f0f0f1;
+            direction: ltr;
+            border-radius: 50px;
+            .swiper-slide-amazing-running-out-16-span-background{
+                width: 97%;
+                height: inherit;
+                background-color: #ef394e;
+                border-radius: 50px;
+            }
+        }
+        .swiper-slide-amazing-running-out-7-selling{
+            width: 100%;
+            height: 30px;
+            display: flex;
+            .swiper-slide-amazing-running-out-7-selling-right{
+                width: 50%;
+                height: inherit;
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                column-gap: 5px;
+                margin-top: 3px;
+                .swiper-slide-amazing-running-out-7-selling-right-discount{
+                    font-family: var(--fontNumber);
+                    font-size: 11px;
+                    color: #ef394e;
+                    margin-bottom: 5px;
+                }
+                .swiper-slide-amazing-running-out-7-selling-right-text{
+                    font-family: var(--fontFamily);
+                    font-size: 11px;
+                    color: #81858b;
+                }
+            }
+            .swiper-slide-amazing-running-out-7-selling-left{
+                width: 50%;
+                height: inherit;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                .swiper-slide-amazing-running-out-7-timeing{
+                    font-family: var(--fontNumber);
+                    font-size: 15px;
+                    color: #ef394e;
+                }
+            }
+        }
+      }
+    }
+  }
+}
